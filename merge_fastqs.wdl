@@ -147,7 +147,7 @@ task check_fastqs {
   runtime {
     cpu: "1"
     memory: "2 GB"
-    docker: "353631943781.dkr.ecr.us-west-2.amazonaws.com/python:3.8.2"
+    docker: "python:3.8.2"
   }
 
   output {
@@ -173,7 +173,7 @@ task run_merge_fastqs {
   runtime {
     cpu: "1"
     memory: "2 GB"
-    docker: "353631943781.dkr.ecr.us-west-2.amazonaws.com/python:3.8.2"
+    docker: "python:3.8.2"
   }
 
   output {
